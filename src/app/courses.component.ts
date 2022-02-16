@@ -9,7 +9,7 @@ import { CoursesService } from "./course/courses.service";
 })
 export class CoursesComponent{
     title = " List of Courses";
-    courses: any;
+    courses;
 
     constructor(service: CoursesService){
         this.courses= service.getCourses;
